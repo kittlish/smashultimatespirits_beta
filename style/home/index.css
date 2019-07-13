@@ -118,6 +118,9 @@ nav {
   width: 100vw;
   height: 4rem;
   overflow: block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   justify-content: space-between;
 }
 nav .hamburgerContainer {
@@ -195,11 +198,10 @@ nav .invisible {
   height: 64px;
 }
 
-.gluedToTop {
-  position: fixed;
-  top: 0;
-}
-
+/*.gluedToTop {
+    position: fixed;
+    top: 0;
+}*/
 body {
   background-color: #061d4c;
   overflow-x: hidden;
